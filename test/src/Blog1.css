@@ -1,0 +1,103 @@
+ .blogcard1{
+    height: 500px;
+    position: relative;
+    padding: 30px;
+    background:#8a5b3cee;
+    border-radius: 25px;
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+.blogcard1 i{
+    font-size: 100px;
+}
+.blogcard1 i:hover{
+  box-shadow: none;
+  cursor: pointer;
+} 
+.play{
+    display: flex;
+    margin-top: 10px;
+}
+.play a{
+    text-decoration:none;
+    color: white;
+}
+.play P{
+    margin-top: 65px;
+    margin-left: 10px;
+}
+
+
+.blogcard2{
+    height: 500px;
+    position: relative;
+    padding: 30px;
+    background:rgb(55, 214, 219);
+    border-radius: 25px;
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+.blogcard2 i{
+    font-size: 100px;
+}
+.blogcard2 i:hover{
+  box-shadow: none;
+  cursor: pointer;
+} 
+.play{
+    display: flex;
+    margin-top: 10px;
+}
+.play a{
+    text-decoration:none;
+    color: white;
+}
+.play P{
+    margin-top: 65px;
+    margin-left: 10px;
+}
+
+.blogimg:hover img{
+border-radius: 200px;
+cursor: pointer;
+transition-duration: 1s;
+
+}
+.blogimg img{
+    border-radius: 25px;
+
+}
+.Wholeblog1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.testcard{
+   
+   display: flex;
+    width: 70%;
+    height: 200px;
+    background:tomato;
+    border-radius: 25px;
+    /* #7dcf90c9 */
+  
+}
+.testimg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+    
+}
+.wholetestcard{
+    display: flex;
+    justify-content: center;
+}
+.wholeblog1{
+    background-color: #f5f5f5;
+}

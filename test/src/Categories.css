@@ -1,0 +1,170 @@
+.Categories{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.cardC1{
+position: relative;
+width: 250px;
+height: 250px;
+background:tomato;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+font-weight: bold;
+border-radius: 15px;
+cursor: pointer;
+}
+.cardC2{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background:tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.cardC3{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background:tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+.cardC1::before,
+.cardC1::after {
+position: absolute;
+content: "";
+width: 20%;
+height: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+font-weight: bold;
+background-color:rgba(255, 255, 239, 0.493);
+transition: all 0.5s;
+border-radius: 15px;
+}
+.cardC2::before,
+.cardC2::after {
+position: absolute;
+content: "";
+width: 20%;
+height: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+font-weight: bold;
+background-color:rgba(255, 255, 239, 0.493);
+transition: all 0.5s;
+border-radius: 15px;
+}
+.cardC3::before,
+.cardC3::after {
+position: absolute;
+content: "";
+width: 20%;
+height: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 25px;
+font-weight: bold;
+background-color:rgba(255, 255, 239, 0.493);
+transition: all 0.5s;
+border-radius: 15px;
+}
+
+.cardC1::before {
+top: 0;
+right: 0;
+border-radius: 0 15px 0 100%;
+}
+.cardC2::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+  }
+
+  .cardC3::before {
+    top: 0;
+    right: 0;
+    border-radius: 0 15px 0 100%;
+    }
+    
+.cardC1::after {
+      bottom: 0;
+      left: 0;
+      border-radius: 0 100%  0 15%;
+      }
+      
+.cardC2::after {
+bottom: 0;
+left: 0;
+border-radius: 0 100%  0 15%;
+}
+.cardC3::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15%;
+  }
+  
+
+.cardC1:hover::before,
+.cardC1:hover:after {
+width: 100%;
+height: 100%;
+border-radius: 15px;
+transition: all 0.5s;
+}
+.cardC2:hover::before,
+.cardC2:hover:after {
+width: 100%;
+height: 100%;
+border-radius: 15px;
+transition: all 0.5s;
+}
+.cardC3:hover::before,
+.cardC3:hover:after {
+width: 100%;
+height: 100%;
+border-radius: 15px;
+transition: all 0.5s;
+}
+
+  .cardC1:hover:after {
+    content: "Dog";
+  }
+  .cardC2:hover:after {
+    content: "Fish";
+  }
+  .cardC3:hover:after {
+    content: "Cat";
+  }
+.view{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items:center;
+align-content: center;
+}
+.wholecategories{
+  background-color: #f5f5f5;
+} 
+
+

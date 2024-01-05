@@ -1,0 +1,86 @@
+export const allproducts=[
+    {
+        id:1,
+        url:"https://dt-petty.myshopify.com/cdn/shop/products/p11_600x.jpg?v=1653304473",
+        name:"Animale",
+       price:'$21.00',
+       category:'Dog' 
+},
+{
+    id:2,
+    url:"https://dt-petty.myshopify.com/cdn/shop/products/p5_600x.jpg?v=1653304481",
+    name:"Nimbus",
+   price:'$21.00',
+   category:'Dog' 
+},
+{
+    id:3,
+    url:"https://dt-petty.myshopify.com/cdn/shop/products/p10_600x.jpg?v=1653304471",
+    name:"Nimbus",
+   price:'$21.00',
+   category:'Dog' 
+},
+{
+    id:4,
+    url:"https://cdn.shopify.com/s/files/1/0641/5187/9935/products/p9_600x.jpg?v=1653304478",
+    name:"Nimbus",
+   price:'$21.00',
+   category:'Dog' 
+},
+{
+    id:5,
+    url:"https://dt-petty.myshopify.com/cdn/shop/products/p12_600x.jpg?v=1653304476",
+    name:"Nimbus",
+   price:'$21.00',
+   category:'Dog' 
+},
+{
+    id:6,
+    url:"https://dt-petty.myshopify.com/cdn/shop/products/p14_600x.jpg?v=1653304465",
+    name:"NIumbys",
+   price:'$21.00',
+   category:'Dog' 
+},
+{
+    id:7,
+    url:"https://dt-petty.myshopify.com/cdn/shop/products/p13_600x.jpg?v=1653304469",
+    name:"NImbus",
+   price:'$21.00',
+   category:'Dog' 
+},
+{
+    id:8,
+    url:"https://cdn.shopify.com/s/files/1/0641/5187/9935/products/p9_600x.jpg?v=1653304478",
+    name:"Nimbus",
+   price:'$21.00',
+   category:'Dog' 
+},
+{
+    id:9,
+    url:"https://cdn.shopify.com/s/files/1/0641/5187/9935/products/p4_600x.jpg?v=1653304463",
+    name:"Nimbus",
+   price:'$21.00',
+   category:'Dog' 
+},
+{
+    id:10,
+    url:"https://cdn.shopify.com/s/files/1/0641/5187/9935/products/p9_600x.jpg?v=1653304478",
+    name:"Nimbus",
+   price:'$21.00',
+   category:'Dog' 
+},
+{
+    id:10,
+    url:"https://cdn.shopify.com/s/files/1/0641/5187/9935/products/p9_600x.jpg?v=1653304478",
+    name:"Nimbus",
+   price:'$21.00',
+   category:'Dog' 
+},
+{
+    id:10,
+    url:"https://cdn.shopify.com/s/files/1/0641/5187/9935/products/p9_600x.jpg?v=1653304478",
+    name:"Nimbus",
+   price:'$21.00',
+   category:'Dog' 
+}
+]

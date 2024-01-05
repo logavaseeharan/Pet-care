@@ -1,0 +1,139 @@
+.Wholelogin{
+  background-color:antiquewhite;
+ background-repeat: no-repeat;
+}
+ .containerLogin{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(238, 176, 7) ;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top:0px;
+  }
+  .leftLogin{
+    width: 66%;
+    height: 100%;
+  }
+  .formLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    margin-top:-5%;
+    position: relative;
+  }
+  .formLogin::before {
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 40%;
+    right: 1%;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .rightLogin{
+    width: 34%;
+    height: 100%;
+  }
+  .imgLogin{
+    width: 2540px;
+    height: 100%;
+    margin-left:-110%;
+    margin-top:-6px;
+  }
+  .containerLogin::after {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 80%;
+    right: -40%;
+    z-index: -1;
+  }
+  .inputLogin1 {
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 5px;
+    margin: 10px ;
+    width: 70%;
+    display: block;
+    color: #425981;
+    font-weight: 500;
+    font-size: 1.1em;
+    border-radius: 10px;
+     
+  }
+button {
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 5px;
+  margin: 10px ;
+  width: 70%;
+  display: block;
+  color: #425981;
+  font-weight: 500;
+  font-size: 1.1em;
+  border-radius: 10px; 
+}
+  .input-blockLogin{
+    position: sticky;
+  }
+  
+  label {
+    position: absolute;
+    left: 6%;
+    top: 27%;
+    pointer-events: none;
+    color:black;
+  }
+  
+  .forgot {
+    display: block;
+    margin: 5px 0 10px 0;
+    margin-left: 35px;
+    color: black;
+    font-size: 0.9em;
+  }
+  
+  .inputLogin1:focus + label {
+    
+    transform: translateY(-120%) scale(0.9);
+    transition: all 0.4s;
+  }
+  .inputLogin1:valid + label {
+    transform: translateY(-120%) scale(0.9);
+    transition: all 0.4s;
+  }
+  .buttonLogin{
+    border-radius: 15px;
+    margin-left: 10px;
+  }
+  button{
+    background-color: tomato;
+    color: white;
+    font-size: medium;
+    box-shadow: 2px 4px 8px rgba(70, 70, 70, 0.178);
+      border-radius:50px;
+  }
+  
+  .forgot a{
+    color: black;
+  }
+  
+  .inputLogin1{
+    box-shadow: inset 4px 4px 4px rgba(165, 163, 163, 0.315),
+      4px 4px 4px rgba(218, 218, 218, 0.13);
+  } 
+  
+  
+  
+
+ 

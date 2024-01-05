@@ -1,0 +1,26 @@
+.bi bi-search{
+    margin: 20px;
+    padding: 20px;
+    }
+    
+    .bi bi-heart{
+        margin:10px;
+        padding:20px;
+    }
+    
+    .bi bi-cart{
+        margin:10px;
+        padding:20px;
+    }
+    i:hover {
+        box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+        transform: translateY(-3px);
+      }
+    
+      .icons{
+       margin-left: 0px;
+      }
+      .icon{
+        margin-left: 0px;
+      }
+    

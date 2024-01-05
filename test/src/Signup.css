@@ -1,0 +1,189 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  padding: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  position: relative;
+  background-color: rgb(238, 174, 36);
+  border: 1px solid #333;
+  align-items: center;
+  margin-right: 40px;
+
+} 
+ .signimg{
+padding:10px;
+}
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: grey;
+  margin:0px;
+}
+
+.title::before {
+  width: 18px;
+  height: 18px;
+}
+
+.title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.title::before,
+.title::after {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  left: 0px;
+  background-color:tomato;
+}
+
+
+.message, 
+.signin {
+  font-size: 14.5px;
+  color: black;
+  padding-bottom: 0px;
+  margin:5;
+}
+
+.signin {
+  text-align: center;
+}
+
+.signin a:hover {
+  text-decoration: underline royalblue;
+}
+
+.signin a {
+  color:black;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+ 
+}
+
+.form label .input {
+  width: 100%;
+  padding: 20px 05px 05px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+} 
+
+.form label .input + span {
+  color: black;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+  top: 12.5px;
+  font-size: 0.9em;
+}
+
+.form label .input:focus + span,
+.form label .input:valid + span {
+  color: black;
+  top: 0px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.input {
+  font-size: medium;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  transform: .3s ease;
+  background-color:tomato;
+}
+
+
+
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+.Signup{
+display: flex;
+justify-content: center;
+margin-top: 0px;
+background-color:rgb(238, 174, 36);
+}
+
+.inputLogin {
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 5px;
+  margin: 5px ;
+  width: 100%;
+  display: block;
+  color: #425981;
+  font-weight: 500;
+  font-size: 1.1em;
+  border-radius: 10px;
+   
+}
+.input-blockLogin{
+  position: sticky;
+  
+}
+
+label {
+  position: absolute;
+  left: 6%;
+  top: 27%;
+  pointer-events: none;
+  color:black;
+  font-size: 16px;
+}
+.inputLogin:focus + label {
+  transform: translateY(-120%) scale(0.9);
+  transition: all 0.4s;
+}
+.inputLogin:valid + label {
+  transform: translateY(-120%) scale(0.9);
+  transition: all 0.4s;
+}
+.forgot a{
+  color: black;
+}
+.inputLogin{
+  box-shadow: inset 4px 4px 4px rgba(165, 163, 163, 0.315),
+    4px 4px 4px rgba(218, 218, 218, 0.13);
+} 
