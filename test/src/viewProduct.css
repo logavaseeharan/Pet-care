@@ -1,0 +1,14 @@
+.wholeviewproduct{
+    display: flex;
+ flex-direction: row; 
+margin-left: 10px;
+}
+.viewimg{
+    padding:10px
+}
+.viewcon1{
+     font-weight: bold;
+     font-family:cursive;
+     margin-right:40px;
+
+}

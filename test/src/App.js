@@ -19,6 +19,7 @@ import Offcanvas from './offcanvas.jsx';
 import Contact from './Contact.jsx';
 import Blog1 from './Blog1.jsx';
 import Blogout from './Blogout.jsx';
+import ViewProduct from './viewProduct.jsx';
 
 
 
@@ -33,6 +34,7 @@ function App() {
     <Brand/>
     <NewFooter/>
     {/* <Blogout/> */}
+    <ViewProduct/>
 
     
    </>

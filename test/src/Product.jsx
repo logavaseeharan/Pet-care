@@ -25,7 +25,7 @@ function Product() {
       {d.price}
   </div>
   <div class="costP">
-      {d.category}
+      {d.Quantity}
   </div>
   <button class="addtocartP">Add to Cart</button>
  </div>

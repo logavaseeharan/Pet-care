@@ -24,7 +24,7 @@ function Blog(){
            <div class="bottom-bottom">
             <div class="social-links-container">
             </div>
-            <button class="button" onClick={()=>navigate('/BlogOut',{state:0})}>Read More</button>
+            <button class="button" onClick={()=>navigate('/BlogOut',{state:1})}>Read More</button>
            </div>
         </div>
     </div>
@@ -42,7 +42,7 @@ function Blog(){
            <div class="bottom-bottom">
             <div class="social-links-container">
             </div>
-            <button class="button" onClick={()=>navigate('/BlogOut',{state:1})}>Read More</button>
+            <button class="button" onClick={()=>navigate('/BlogOut',{state:2})}>Read More</button>
            </div>
         </div>
     </div>
@@ -60,7 +60,7 @@ function Blog(){
            <div class="bottom-bottom">
             <div class="social-links-container">
             </div>
-            <button class="button" onClick={()=>navigate('/BlogOut',{state:2})}>Read More</button>
+            <button class="button" onClick={()=>navigate('/BlogOut',{state:3})}>Read More</button>
            </div>
         </div>
     </div>
