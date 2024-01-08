@@ -5,6 +5,7 @@ export const allproducts=[
         name:"Wet cat Food",
        price:'Rs.619.00',
        Quantity:'1 Kg' ,
+       category:'Cat'
  
 },
 {
@@ -12,7 +13,8 @@ export const allproducts=[
     url:"https://dt-petty.myshopify.com/cdn/shop/products/p10_600x.jpg?v=1653304471",
     name:"Ocean Fish Dry",
    price:'Rs.689.00',
-   Quantity:'1 Kg' ,
+   Quantity:'1 Kg',
+   category:"Dog"
   
 },
 {
@@ -21,7 +23,7 @@ export const allproducts=[
     name:"Pumpkin Food",
    price:'Rs.219.00',
    Quantity:'2 Kg' ,
-   
+   category:'Dog'
 },
 {
     id:4,
@@ -29,7 +31,7 @@ export const allproducts=[
     name:" Dog Feed",
    price:'Rs.649.00',
    Quantity:'1 Kg' ,
-   
+   category:'Dog'
 },
 {
     id:5,
@@ -77,6 +79,7 @@ export const allproducts=[
     name:"Meat & Rice Food",
    price:'Rs.659.00',
    Quantity:'1 Kg' ,
+   category:'Dog'
    
 },
 {
@@ -85,6 +88,7 @@ export const allproducts=[
     name:"Chicken Biscuts",
    price:'Rs.210.00',
    Quantity:'2 Kg' ,
+    category:'Dog'
     
 },
 {
@@ -93,6 +97,7 @@ export const allproducts=[
     name:"Healthy Weight",
    price:'Rs.291.00',
    Quantity:'1 Kg' ,
+   category:'Cat'
   
 },{
     id:13,
@@ -100,6 +105,7 @@ export const allproducts=[
     name:"kitten Food",
    price:'Rs.291.00',
    Quantity:'1 Kg' ,
+   category:'Cat'
 
 },
 {
@@ -109,6 +115,7 @@ export const allproducts=[
     name:"kitten Food",
    price:'Rs.291.00',
    Quantity:'1 Kg' ,
+   category:'Cat'
 },
 {       
     id:15,
@@ -116,6 +123,7 @@ export const allproducts=[
     name:"kitten Food",
    price:'Rs.291.00',
    Quantity:'1 Kg' ,
+   category:'Cat'
 },
 {
     id:16,
@@ -123,6 +131,7 @@ export const allproducts=[
     name:"kitten Food",
    price:'Rs.291.00',
    Quantity:'1 Kg',
+   category:'Cat'
 },{
     
 id:17,
@@ -130,6 +139,7 @@ id:17,
     name:"kitten Food",
    price:'Rs.291.00',
    Quantity:'1 Kg',
+   category:'Cat'
 },
 {
     id:17,
@@ -137,6 +147,7 @@ id:17,
     name:"Fish Food",
    price:'Rs.291.00',
    Quantity:'1 Kg',
+   category:'Fish'
 
 },{
     id:18,
@@ -144,6 +155,7 @@ id:17,
     name:"Fish Food",
    price:'Rs.291.00',
    Quantity:'1 Kg',
+   category:'Fish'
 
 },
 {
@@ -152,6 +164,35 @@ id:17,
     name:"Fish Food",
    price:'Rs.291.00',
    Quantity:'1 Kg',
-
+   category:'Fish'
+},
+{
+    id:19,
+    url:"https://dt-woofly.myshopify.com/cdn/shop/files/p3.jpg?v=1691132801&width=600",
+    name:"Fish Food",
+   price:'Rs.291.00',
+   Quantity:'1 Kg',
+   category:'Dog'
+},{
+    id:20,
+    url:"https://dt-pet-care.myshopify.com/cdn/shop/products/product18_9848d8dc-63f9-4141-a760-8068fc1cb863.jpg?v=1531469005",
+    name:"Fish Food",
+   price:'Rs.291.00',
+   Quantity:'1 Kg',
+   category:'Fish'
+},{
+    id:21,
+    url:"https://dt-pet-care.myshopify.com/cdn/shop/products/product23_f3122178-5bae-45e9-87b4-bf8001edc798.jpg?v=1531468981",
+    name:"Fish Food",
+   price:'Rs.291.00',
+   Quantity:'1 Kg',
+   category:'Fish'
+},{
+    id:21,
+    url:"https://dt-pet-care.myshopify.com/cdn/shop/products/product16_6ce96891-4d9b-4d8d-8cd1-ded7b1f1dfc6.jpg?v=1531469015",
+    name:"Fish Food",
+   price:'Rs.291.00',
+   Quantity:'1 Kg',
+   category:'Cat'
 }
 ]

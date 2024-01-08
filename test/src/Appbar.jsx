@@ -10,6 +10,7 @@ import "./Appbar.css"
 
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { useNavigate } from 'react-router-dom';
 function Appbar() {
 
   const [show, setShow] = useState(false);
@@ -18,17 +19,18 @@ function Appbar() {
   const handleShow = () => setShow(true);
 
 
+  const navigate=useNavigate();
   return (
   
     <div className='wholenavbar'>
       
-    <Navbar  expand="lg" className="bg-body-tertiary" >
+    <Navbar  expand="lg" className='navcolor' >
       <Container>
         <Navbar.Brand href="#home"><img src="https://dt-petty.myshopify.com/cdn/shop/files/logo.png?v=1651472821"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Nav className="me-auto">
             <Nav.Link href="/Home">Home</Nav.Link>
-            <Nav.Link href="/Product">Shop</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/Product',{state:null})}>Shop</Nav.Link>
             <Nav.Link href="/Blog1">Blog</Nav.Link>
             
             <NavDropdown title="Pages" id="basic-nav-dropdown">
