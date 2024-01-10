@@ -20,6 +20,8 @@ import Contact from './Contact.jsx';
 import Blog1 from './Blog1.jsx';
 import Blogout from './Blogout.jsx';
 import ViewProduct from './viewProduct.jsx';
+import Profile from './Profile.jsx';
+
 
 
 
@@ -33,8 +35,9 @@ function App() {
     <Blog/>
     <Brand/>
     <NewFooter/>
-    {/* <Blogout/> */}
-    <ViewProduct/>
+  <Profile/>
+
+
 
     
    </>

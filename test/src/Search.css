@@ -2,7 +2,6 @@
 .container-input {
     position: relative;
   }
-  
   .input {
     width: 150px;
     padding: 10px 0px 10px 40px;
@@ -12,15 +11,14 @@
     outline: none;
     opacity: 0.8;
   }
-  
   .container-input  i {
     position: absolute;
     top: 50%;
     left: 10px;
     transform: translate(0, -50%);
   }
-  
   .input:focus {
     opacity: 1;
     width: 250px;
   }
+ 

@@ -1,6 +1,11 @@
 import './Faq.css';
 import * as React from 'react';
-import Accordion from '@mui/material/Accordion';
+import { styled } from '@mui/material/styles';
+ import Accordion from '@mui/material/Accordion';
+ import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
+ import MuiAccordion from '@mui/material/Accordion';
+import MuiAccordionSummary from '@mui/material/AccordionSummary';
+import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
@@ -9,7 +14,10 @@ import Appbar from './Appbar';
 import NewFooter from './NewFooter';
 
 
+
 function Faq() {
+
+ 
   return (
     <>
     <Appbar/>
@@ -18,8 +26,8 @@ function Faq() {
        <div className='faq'>
    
    
-      <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} sx={{backgroundColor:'#F0B86E',width:'100%'}}>
+       <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon/>} sx={{backgroundColor:'#F0B86E',width:'100%'}}  >
           <Typography sx={{fontFamily:'cursive',fontSize:'23px'}} >What types of pets do you cater to?</Typography>
         </AccordionSummary>
         <AccordionDetails sx={{backgroundColor:'#FFDBAA',width:'100%'}}>
@@ -28,7 +36,7 @@ function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-       <Accordion>
+       <Accordion  >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}sx={{backgroundColor:'#F0B86E',width:'100%'}}>
           <Typography  sx={{fontFamily:'cursive',fontSize:'23px'}} >Are your products vet-approved and safe for pets?</Typography>
@@ -106,9 +114,8 @@ function Faq() {
           We strive to offer an eco-conscious selection and partner with brands that prioritize sustainability. Look for our eco-friendly product labels for items that align with these values.
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> 
 
-     
 
       </div>
       
@@ -124,3 +131,4 @@ function Faq() {
 }
 
 export default Faq;
+

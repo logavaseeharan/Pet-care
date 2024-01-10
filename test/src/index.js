@@ -15,6 +15,7 @@ import Contact from './Contact.jsx';
 import Blog1 from './Blog1.jsx';
 import Blogout from './Blogout.jsx';
 import Categories from './Categories.jsx';
+import ViewProduct from './viewProduct.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,7 +34,7 @@ root.render(
 <Route path="/Blog1" element={<Blog1/>}></Route>
 <Route path="/BlogOut" element={<Blogout/>}></Route>
 <Route path="/Product" element={<Product/>}></Route>
-
+<Route path="/ViewProduct" element={<ViewProduct/>}></Route>
 </Routes>
 
   </BrowserRouter>

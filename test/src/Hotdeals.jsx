@@ -1,6 +1,7 @@
 
 import { Button } from 'bootstrap';
 import './/Hotdeals.css'; 
+import ViewProduct from './viewProduct';
 function Hotdeals(){
     return(
     <>

@@ -10,6 +10,7 @@ function Product() {
 
   const location=useLocation();
   const res=location.state&&location.state;
+  const s=location.state&&location.state.d;
   console.log(res);
   return (
     <>
@@ -17,7 +18,7 @@ function Product() {
      <div className='wholeproductP'>
   {res !== null ? (
     allproducts
-      .filter(d => d.category === res)
+      .filter(d => d.category === res)//.filter((c)=>s&&c.title.includes(s||''))
       .map((d, index) => (
         <div class="cardP" key={index}>
           <div>    
