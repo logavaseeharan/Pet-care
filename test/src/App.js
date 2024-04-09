@@ -3,10 +3,10 @@ import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Appbar from './Appbar';
-import Categories from './Categories';
-import Hotdeals from './Hotdeals';
-import Background from './Background';
+import Appbar from './Appbar.jsx';
+import Categories from './Categories.jsx';
+import Hotdeals from './Hotdeals.jsx';
+import Background from './Background.jsx';
 import Blog from './Blog.jsx';
 import Brand from './Brand.jsx';
 import NewFooter from './NewFooter.jsx';
@@ -35,11 +35,7 @@ function App() {
     <Blog/>
     <Brand/>
     <NewFooter/>
-  <Profile/>
 
-
-
-    
    </>
   );
 }

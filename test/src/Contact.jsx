@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import './/Contact.css';
+import './Contact.css';
 import NewFooter from './NewFooter';
 import Appbar from './Appbar';
 import Slider from "react-slick";

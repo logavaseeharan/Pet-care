@@ -14,6 +14,7 @@ function Product() {
   console.log(res);
   return (
     <>
+
      <Appbar/>
      <div className='wholeproductP'>
   {res !== null ? (
@@ -22,7 +23,7 @@ function Product() {
       .map((d, index) => (
         <div class="cardP" key={index}>
           <div>    
-            <img src={d.url} className="imageP" alt={d.name} />
+            <img src={d.url} className="imageP" alt={d.name}/>
           </div>
           <div class="productTitleP">
             {d.name}
@@ -63,3 +64,4 @@ function Product() {
   )
 }
 export default Product;
+          

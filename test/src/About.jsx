@@ -10,7 +10,7 @@ function About() {
     <div className='wholeabout'>
     <div className='about'>
 
-<div>
+<div> 
     <b>Who We Are</b>
     </div>
 <div style={{width:"60%"}}>

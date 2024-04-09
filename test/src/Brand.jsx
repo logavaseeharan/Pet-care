@@ -1,6 +1,6 @@
 
 import React from 'react'
-import './/Brand.css';
+import './Brand.css';
 function Brand() {
   return (
     <>

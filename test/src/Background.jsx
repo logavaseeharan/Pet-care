@@ -1,7 +1,7 @@
 
 import { Button } from 'bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
-import './/Background.css';
+import './Background.css';
 import CarouselCaption from 'react-bootstrap/esm/CarouselCaption';
 import image from './new dog.png';
 import image1 from'./Cat.png';

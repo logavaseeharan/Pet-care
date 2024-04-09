@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import Appbar from './Appbar'
 import NewFooter from './NewFooter'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import Carousel from 'react-bootstrap/Carousel';
 import i1 from'./return.png';
 import './Blog1.css';
@@ -52,21 +52,16 @@ function Blog1() {
      <div className='blogcard2'>
         <div >
          <h1 style={{marginTop:'100px'}}>Discover Best</h1>
-         <h1 style={{marginLeft:'0px', color:'white'}}>Pet Care</h1>
-         
+         <h1 style={{marginLeft:'0px', color:'white'}}>Pet Care</h1>        
           <div className='play' ><i class="bi bi-play-circle"></i> 
          <p><a href='https://youtu.be/s9TYI-Ik2lc?si=XkI1iHQLnCgxnLFo'> Play Now</a></p>
-
          </div>
-
         </div>
         <div className='blogimg'>
     <img src="https://dt-petszone.myshopify.com/cdn/shop/files/2.jpg?v=1667197734&width=650"/>
     </div>
-     </div>
-     
+     </div>     
      </Carousel.Item></Carousel></center>
-
 <div className="blog1content">
 <center><h1 style={{padding:'20px'}}>Pet Parents Testimonials</h1></center>
 </div>
